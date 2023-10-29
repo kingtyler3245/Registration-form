@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p class="subtitle">Please fill out this form with the required information</p>
+    <form>
+<fieldset>
+<label for="">Enter your first name:<input type="text"></label>
+<label for="">Enter your last name:<input type="text"></label>
+<label for="">Enter your email:<input type="text"></label>
+<label for="">Create a New Password:<input type="text"></label>
+</fieldset>
+
+<fieldset>
+<legend>Account type(required)</legend>
+<label for=""><input class="op" type="radio" name="option">Personal</label>
+<label for=""><input class="op" type="radio" name="option">Business</label>
+</fieldset>
+
+
+<fieldset>
+    <label for="">Upload a profile picture:<input type="file"></label>
+    <label for="">Input your age(years)<input type="number"></label>
+    <label for="">How did you hear about us
+    <select>
+        <option>(select one)</option>
+        <option>freeCodeCamp News</option>
+        <option>freeCodeCamp Youtube channel</option>
+        <option>freeCodeCamp Forum</option>
+        <option>Other</option>
+    </select>
+</label>
+<label for="">Provide a bio:<textarea rows="3" cols="30"placeholder="I like coding on the beach..."></textarea></label>
+</fieldset>
+<label for=""><input type="checkbox">I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+<button>Submit</button>
+    </form>
+</body>
+</html>
